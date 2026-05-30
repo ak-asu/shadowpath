@@ -1,0 +1,141 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - link "Skip to content" [ref=e3] [cursor=pointer]:
+      - /url: "#main-content"
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6]: ShadowPath
+        - list [ref=e7]:
+          - listitem [ref=e8]:
+            - link "Home" [ref=e9] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e10]:
+            - link "Day Planner" [ref=e11] [cursor=pointer]:
+              - /url: /planner
+          - listitem [ref=e12]:
+            - link "Why This Matters" [ref=e13] [cursor=pointer]:
+              - /url: /why-this-matters
+          - listitem [ref=e14]:
+            - link "Waste Classifier" [ref=e15] [cursor=pointer]:
+              - /url: /waste-classifier
+      - 'button "High Contrast: Off" [ref=e16] [cursor=pointer]'
+  - main [ref=e17]:
+    - generic [ref=e20]:
+      - generic [ref=e21]:
+        - paragraph [ref=e22]:
+          - generic [ref=e23]: 🌤️
+          - text: ShadowPath
+        - heading "Routes that respect heat and shade" [level=1] [ref=e24]
+        - paragraph [ref=e25]: Pick when you're walking, peek at the weather card, then compare sidewalk-aligned paths (OpenStreetMap / optional Google) with the campus shade model on the map.
+      - generic [ref=e26]:
+        - region "Route planner" [ref=e27]:
+          - group [ref=e29]:
+            - generic [ref=e30]:
+              - generic [ref=e31]: 🧭
+              - generic [ref=e32]:
+                - heading "Plan a walk" [level=2] [ref=e33]
+                - paragraph [ref=e34]: Shade and comfort update when you move the time slider.
+            - generic [ref=e35]:
+              - generic [ref=e36]:
+                - generic [ref=e37]: From
+                - combobox "From" [ref=e38]
+              - generic [ref=e39]:
+                - generic [ref=e40]: To
+                - combobox "To" [ref=e41]
+            - generic [ref=e42]:
+              - group "Plan for" [ref=e43]:
+                - generic [ref=e44]: Plan for
+                - radiogroup "Time mode" [ref=e45]:
+                  - radio "Today" [checked] [ref=e46] [cursor=pointer]:
+                    - generic [ref=e47]: 🕒
+                    - generic [ref=e48]: Today
+                  - radio "Future date" [ref=e49] [cursor=pointer]:
+                    - generic [ref=e50]: 📅
+                    - generic [ref=e51]: Future date
+                - paragraph [ref=e52]: "Sun angle, shade, and weather (incl. cloud cover) are recomputed for the chosen day & hour. Forecast horizon: up to 6 days."
+              - generic [ref=e53]:
+                - generic [ref=e54]:
+                  - generic [ref=e55]:
+                    - generic [ref=e56]: Walk time
+                    - generic [ref=e57]:
+                      - generic [ref=e58]: ☀️
+                      - text: 10:00 AM
+                  - generic [ref=e59]: Select time of day in five-minute steps from 6 AM to 8 PM
+                  - slider "Time of day, 10:00 AM" [ref=e61] [cursor=pointer]: "240"
+                  - paragraph [ref=e62]: Drag the sun along the day, or tap a time below
+                - group "Quick time presets" [ref=e63]:
+                  - button "6 AM" [ref=e64] [cursor=pointer]
+                  - button "8 AM" [ref=e65] [cursor=pointer]
+                  - button "10 AM" [pressed] [ref=e66] [cursor=pointer]
+                  - button "12 PM" [ref=e67] [cursor=pointer]
+                  - button "2 PM" [ref=e68] [cursor=pointer]
+                  - button "4 PM" [ref=e69] [cursor=pointer]
+                  - button "6 PM" [ref=e70] [cursor=pointer]
+                  - button "8 PM" [ref=e71] [cursor=pointer]
+            - generic [ref=e72]:
+              - group "Campus access" [ref=e73]:
+                - generic [ref=e74]: Campus access
+                - generic [ref=e75]: Access level
+                - combobox "Access level" [ref=e76] [cursor=pointer]:
+                  - option "Public paths only"
+                  - option "Student access (default)" [selected]
+                  - option "Staff access"
+              - group "Comfort vibe" [ref=e77]:
+                - generic [ref=e78]: Comfort vibe
+                - radiogroup "Comfort priority" [ref=e79]:
+                  - radio "fastest" [ref=e80] [cursor=pointer]:
+                    - generic [ref=e81]: ⚡
+                    - generic [ref=e82]: fastest
+                  - radio "balanced" [checked] [ref=e83] [cursor=pointer]:
+                    - generic [ref=e84]: ⚖️
+                    - generic [ref=e85]: balanced
+                  - radio "coolest" [ref=e86] [cursor=pointer]:
+                    - generic [ref=e87]: 🧊
+                    - generic [ref=e88]: coolest
+                - paragraph [ref=e89]: This mainly tunes the orange Comfort-Aware route. Green stays shade-first baseline, and blue stays shortest-distance baseline.
+            - generic [ref=e90] [cursor=pointer]:
+              - checkbox "Wheelchair-accessible paths only" [ref=e91]
+              - generic [ref=e92]: Wheelchair-accessible paths only
+            - button "Find routes" [ref=e93] [cursor=pointer]:
+              - generic [ref=e94]: ✨
+              - text: Find routes
+        - complementary [ref=e95]:
+          - generic [ref=e96]:
+            - paragraph [ref=e97]: Plan for 10 AM
+            - paragraph [ref=e98]: Forecast for Demo weather
+            - generic [ref=e100]:
+              - generic [ref=e101]:
+                - term [ref=e102]: Wind
+                - definition [ref=e103]: 2.2 m/s
+              - generic [ref=e104]:
+                - term [ref=e105]: Humidity
+                - definition [ref=e106]: 18%
+              - generic [ref=e107]:
+                - term [ref=e108]: Cloud cover
+                - definition [ref=e109]: 10%
+              - generic [ref=e110]:
+                - term [ref=e111]: Sky
+                - definition [ref=e112]: Sunny
+            - generic [ref=e113]:
+              - paragraph [ref=e114]: Sun Exposure Impact
+              - paragraph [ref=e115]: Click Find routes and select a path to see estimated direct-sun reduction and health impact guidance.
+            - generic [ref=e116]:
+              - paragraph [ref=e117]: Body Heat & Climate Impact
+              - paragraph [ref=e118]: Select routes to compare estimated body heat load and potential downstream cooling impact.
+            - paragraph [ref=e119]: Using backup weather — live forecast unavailable.
+          - paragraph [ref=e120]: Weather refreshes when you change the time slider — try sliding through the day.
+      - region "Campus map" [ref=e121]:
+        - generic [ref=e122]:
+          - heading "Campus map" [level=2] [ref=e123]: 🗺️Campus map
+          - generic [ref=e124]: All paths
+        - generic [ref=e125]:
+          - paragraph [ref=e126]: Teal lines follow real pedestrian geometry from the router. Faded colored lines are the demo campus graph (shade / UTCI). Orange dots mark sample entrances for this trip.
+          - application "Campus route map" [ref=e127]
+      - generic [ref=e128]:
+        - generic [ref=e130]:
+          - heading "Your route picks" [level=2] [ref=e131]
+          - paragraph [ref=e132]: Each card is a different strategy — compare shade, time outside, and comfort.
+        - paragraph [ref=e133]: Submit the planner form — your routes will land here with playful metrics.
+      - generic [ref=e134]:
+        - heading "Heat & Climate Impact Dashboard" [level=2] [ref=e135]
+        - paragraph [ref=e136]: Find and select a route to see a personalized breakdown of how shade choices ripple out — body heat, hydration, AC load on arrival, and longer-term skin and climate effects.

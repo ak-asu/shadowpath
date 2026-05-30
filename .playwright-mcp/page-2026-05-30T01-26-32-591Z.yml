@@ -1,0 +1,130 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - link "Skip to content" [ref=e3] [cursor=pointer]:
+      - /url: "#main-content"
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6]: ShadowPath
+        - list [ref=e7]:
+          - listitem [ref=e8]:
+            - link "Home" [ref=e9] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e10]:
+            - link "Day Planner" [ref=e11] [cursor=pointer]:
+              - /url: /planner
+          - listitem [ref=e12]:
+            - link "Why This Matters" [ref=e13] [cursor=pointer]:
+              - /url: /why-this-matters
+          - listitem [ref=e14]:
+            - link "Waste Classifier" [ref=e15] [cursor=pointer]:
+              - /url: /waste-classifier
+      - 'button "High Contrast: Off" [ref=e16] [cursor=pointer]'
+  - main [ref=e17]:
+    - generic [ref=e19]:
+      - generic [ref=e20]:
+        - paragraph [ref=e21]:
+          - generic [ref=e22]: 📅
+          - text: HeatShield
+        - heading "Day planner for cooler campus moves" [level=1] [ref=e23]
+        - paragraph [ref=e24]: Plan your school day around heat, not just time.
+        - paragraph [ref=e25]: Day-wide forecast uses the time nearest your schedule midpoint (12 PM). Each walk leg still uses the slot closest to its start time for shade routing.
+      - note "Prototype disclaimer" [ref=e26]:
+        - paragraph [ref=e27]: ⚠️ Prototype Disclaimer
+        - paragraph [ref=e28]: This planner uses demo data and estimated calculations for educational and planning purposes only. It is not a substitute for official heat safety guidance.
+      - generic [ref=e29]:
+        - group [ref=e32]:
+          - generic [ref=e33]:
+            - heading "Campus Commitments" [level=2] [ref=e34]
+            - button "Load Demo Schedule" [ref=e35] [cursor=pointer]
+          - generic [ref=e36]:
+            - generic [ref=e37]:
+              - generic [ref=e39]: Commitment 1
+              - generic [ref=e40]:
+                - generic [ref=e41]:
+                  - generic [ref=e42]: Location
+                  - combobox "Location" [ref=e43]:
+                    - option "Select a building" [selected]
+                    - option "Hayden Library"
+                    - option "Memorial Union"
+                    - option "Brickyard"
+                    - option "Fulton Center"
+                    - option "Old Main"
+                    - option "Gammage Auditorium"
+                    - option "Sun Devil Stadium"
+                    - option "Biodesign Institute"
+                    - option "ISTB4"
+                    - option "Wrigley Hall"
+                - generic [ref=e44]:
+                  - generic [ref=e45]: Start Time
+                  - textbox "Start Time" [ref=e46]
+                - generic [ref=e47]:
+                  - generic [ref=e48]: End Time (optional)
+                  - textbox "End Time (optional)" [ref=e49]
+                - generic [ref=e50]:
+                  - generic [ref=e51]: Label
+                  - textbox "Label" [ref=e52]:
+                    - /placeholder: e.g. CS 101 Lecture
+              - generic [ref=e53]:
+                - checkbox "Flexible timing" [ref=e54]
+                - generic [ref=e55]: Flexible timing
+            - generic [ref=e56]:
+              - generic [ref=e58]: Commitment 2
+              - generic [ref=e59]:
+                - generic [ref=e60]:
+                  - generic [ref=e61]: Location
+                  - combobox "Location" [ref=e62]:
+                    - option "Select a building" [selected]
+                    - option "Hayden Library"
+                    - option "Memorial Union"
+                    - option "Brickyard"
+                    - option "Fulton Center"
+                    - option "Old Main"
+                    - option "Gammage Auditorium"
+                    - option "Sun Devil Stadium"
+                    - option "Biodesign Institute"
+                    - option "ISTB4"
+                    - option "Wrigley Hall"
+                - generic [ref=e63]:
+                  - generic [ref=e64]: Start Time
+                  - textbox "Start Time" [ref=e65]
+                - generic [ref=e66]:
+                  - generic [ref=e67]: End Time (optional)
+                  - textbox "End Time (optional)" [ref=e68]
+                - generic [ref=e69]:
+                  - generic [ref=e70]: Label
+                  - textbox "Label" [ref=e71]:
+                    - /placeholder: e.g. CS 101 Lecture
+              - generic [ref=e72]:
+                - checkbox "Flexible timing" [ref=e73]
+                - generic [ref=e74]: Flexible timing
+          - generic [ref=e75]:
+            - button "Add Commitment" [ref=e76] [cursor=pointer]
+            - button "Plan My Day" [ref=e77] [cursor=pointer]
+        - group "Personal Heat Mode" [ref=e79]:
+          - generic [ref=e80]: Personal Heat Mode
+          - paragraph [ref=e81]: These settings tune route comfort, accessibility filters, and planner recommendations.
+          - generic [ref=e82]:
+            - generic [ref=e83] [cursor=pointer]:
+              - checkbox "Standard walking" [checked] [ref=e84]
+              - generic [ref=e85]: Standard walking
+            - generic [ref=e86] [cursor=pointer]:
+              - checkbox "Low exertion" [ref=e87]
+              - generic [ref=e88]: Low exertion
+            - generic [ref=e89] [cursor=pointer]:
+              - checkbox "Wheelchair-accessible" [ref=e90]
+              - generic [ref=e91]: Wheelchair-accessible
+            - generic [ref=e92] [cursor=pointer]:
+              - checkbox "Asthma-sensitive" [ref=e93]
+              - generic [ref=e94]: Asthma-sensitive
+            - generic [ref=e95] [cursor=pointer]:
+              - checkbox "Prefer shaded paths" [ref=e96]
+              - generic [ref=e97]: Prefer shaded paths
+            - generic [ref=e98] [cursor=pointer]:
+              - checkbox "Prefer water refill stops" [ref=e99]
+              - generic [ref=e100]: Prefer water refill stops
+            - generic [ref=e101] [cursor=pointer]:
+              - checkbox "Prefer cooling stops" [ref=e102]
+              - generic [ref=e103]: Prefer cooling stops
+            - generic [ref=e104] [cursor=pointer]:
+              - checkbox "Prefer shuttle alternatives" [ref=e105]
+              - generic [ref=e106]: Prefer shuttle alternatives

@@ -1,0 +1,354 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - link "Skip to content" [ref=e3] [cursor=pointer]:
+      - /url: "#main-content"
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6]: ShadowPath
+        - list [ref=e7]:
+          - listitem [ref=e8]:
+            - link "Home" [ref=e9] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e10]:
+            - link "Day Planner" [ref=e11] [cursor=pointer]:
+              - /url: /planner
+          - listitem [ref=e12]:
+            - link "Why This Matters" [ref=e13] [cursor=pointer]:
+              - /url: /why-this-matters
+          - listitem [ref=e14]:
+            - link "Waste Classifier" [ref=e15] [cursor=pointer]:
+              - /url: /waste-classifier
+      - 'button "High Contrast: Off" [ref=e16] [cursor=pointer]'
+  - main [ref=e17]:
+    - generic [ref=e20]:
+      - generic [ref=e21]:
+        - paragraph [ref=e22]:
+          - generic [ref=e23]: 🌤️
+          - text: ShadowPath
+        - heading "Routes that respect heat and shade" [level=1] [ref=e24]
+        - paragraph [ref=e25]: Pick when you're walking, peek at the weather card, then compare sidewalk-aligned paths (OpenStreetMap / optional Google) with the campus shade model on the map.
+      - generic [ref=e26]:
+        - region "Route planner" [ref=e27]:
+          - group [ref=e29]:
+            - generic [ref=e30]:
+              - generic [ref=e31]: 🧭
+              - generic [ref=e32]:
+                - heading "Plan a walk" [level=2] [ref=e33]
+                - paragraph [ref=e34]: Shade and comfort update when you move the time slider.
+            - generic [ref=e35]:
+              - generic [ref=e36]:
+                - generic [ref=e37]: From
+                - combobox "From" [ref=e38]: Memorial Union
+              - generic [ref=e39]:
+                - generic [ref=e40]: To
+                - combobox "To" [ref=e41]: Hayden Library
+            - generic [ref=e42]:
+              - group "Plan for" [ref=e43]:
+                - generic [ref=e44]: Plan for
+                - radiogroup "Time mode" [ref=e45]:
+                  - radio "Today" [checked] [ref=e46] [cursor=pointer]:
+                    - generic [ref=e47]: 🕒
+                    - generic [ref=e48]: Today
+                  - radio "Future date" [ref=e49] [cursor=pointer]:
+                    - generic [ref=e50]: 📅
+                    - generic [ref=e51]: Future date
+                - paragraph [ref=e52]: "Sun angle, shade, and weather (incl. cloud cover) are recomputed for the chosen day & hour. Forecast horizon: up to 6 days."
+              - generic [ref=e53]:
+                - generic [ref=e54]:
+                  - generic [ref=e55]:
+                    - generic [ref=e56]: Walk time
+                    - generic [ref=e57]:
+                      - generic [ref=e58]: ☀️
+                      - text: 10:00 AM
+                  - generic [ref=e59]: Select time of day in five-minute steps from 6 AM to 8 PM
+                  - slider "Time of day, 10:00 AM" [ref=e61] [cursor=pointer]: "240"
+                  - paragraph [ref=e62]: Drag the sun along the day, or tap a time below
+                - group "Quick time presets" [ref=e63]:
+                  - button "6 AM" [ref=e64] [cursor=pointer]
+                  - button "8 AM" [ref=e65] [cursor=pointer]
+                  - button "10 AM" [pressed] [ref=e66] [cursor=pointer]
+                  - button "12 PM" [ref=e67] [cursor=pointer]
+                  - button "2 PM" [ref=e68] [cursor=pointer]
+                  - button "4 PM" [ref=e69] [cursor=pointer]
+                  - button "6 PM" [ref=e70] [cursor=pointer]
+                  - button "8 PM" [ref=e71] [cursor=pointer]
+            - generic [ref=e72]:
+              - group "Campus access" [ref=e73]:
+                - generic [ref=e74]: Campus access
+                - generic [ref=e75]: Access level
+                - combobox "Access level" [ref=e76] [cursor=pointer]:
+                  - option "Public paths only"
+                  - option "Student access (default)" [selected]
+                  - option "Staff access"
+              - group "Comfort vibe" [ref=e77]:
+                - generic [ref=e78]: Comfort vibe
+                - radiogroup "Comfort priority" [ref=e79]:
+                  - radio "fastest" [ref=e80] [cursor=pointer]:
+                    - generic [ref=e81]: ⚡
+                    - generic [ref=e82]: fastest
+                  - radio "balanced" [checked] [ref=e83] [cursor=pointer]:
+                    - generic [ref=e84]: ⚖️
+                    - generic [ref=e85]: balanced
+                  - radio "coolest" [ref=e86] [cursor=pointer]:
+                    - generic [ref=e87]: 🧊
+                    - generic [ref=e88]: coolest
+                - paragraph [ref=e89]: This mainly tunes the orange Comfort-Aware route. Green stays shade-first baseline, and blue stays shortest-distance baseline.
+            - generic [ref=e90] [cursor=pointer]:
+              - checkbox "Wheelchair-accessible paths only" [ref=e91]
+              - generic [ref=e92]: Wheelchair-accessible paths only
+            - button "Find routes" [ref=e93] [cursor=pointer]:
+              - generic [ref=e94]: ✨
+              - text: Find routes
+        - complementary [ref=e95]:
+          - generic [ref=e96]:
+            - paragraph [ref=e97]: Plan for 10 AM
+            - paragraph [ref=e98]: Forecast for Sat, May 30, 10:00 AM
+            - generic [ref=e99]:
+              - generic [ref=e137]: 😊
+              - generic [ref=e138]: 81°F
+              - generic [ref=e139]: feels ~81°
+            - generic [ref=e100]:
+              - generic [ref=e101]:
+                - term [ref=e102]: Wind
+                - definition [ref=e103]: 0.0 m/s
+              - generic [ref=e104]:
+                - term [ref=e105]: Humidity
+                - definition [ref=e106]: 21%
+              - generic [ref=e107]:
+                - term [ref=e108]: Cloud cover
+                - definition [ref=e109]: 5%
+              - generic [ref=e110]:
+                - term [ref=e111]: Sky
+                - definition [ref=e112]: Sunny
+            - generic [ref=e113]:
+              - paragraph [ref=e114]: Sun Exposure Impact
+              - paragraph [ref=e150]: No direct-sun reduction
+              - paragraph [ref=e151]: "Selected route shade: 32% (least-shaded alternative: 32%)."
+              - paragraph [ref=e152]: Why this matters
+              - list [ref=e153]:
+                - listitem [ref=e154]: "Moderate heat conditions (feels ~81°F): shade can still improve walking comfort and reduce direct sun load."
+                - listitem [ref=e155]: This option does not reduce direct sun versus alternatives; sunscreen, hat, and hydration are especially important.
+              - paragraph [ref=e156]: "Guidance only: this is a route-planning estimate, not medical advice."
+            - generic [ref=e116]:
+              - paragraph [ref=e117]: Body Heat & Climate Impact
+              - paragraph [ref=e157]: 34% lower estimated body heat load
+              - generic [ref=e158]:
+                - generic [ref=e160]:
+                  - generic [ref=e161]: Selected path
+                  - generic [ref=e162]: 51 load pts
+                - generic [ref=e166]:
+                  - generic [ref=e167]: Baseline (least-shaded)
+                  - generic [ref=e168]: 77 load pts
+              - paragraph [ref=e171]: This route estimates 26 fewer heat-load points (7 min, 32% shade) vs baseline (7 min, 0% shade).
+              - paragraph [ref=e172]: Lower personal heat load can reduce downstream cooling demand and emissions pressure after arrival.
+              - paragraph [ref=e173]: Estimates are relative model outputs (for comparison), not direct medical or carbon accounting values.
+          - paragraph [ref=e120]: Weather refreshes when you change the time slider — try sliding through the day.
+      - region "Campus map" [ref=e121]:
+        - generic [ref=e122]:
+          - heading "Campus map" [level=2] [ref=e123]: 🗺️Campus map
+          - generic [ref=e124]: All paths
+        - generic [ref=e125]:
+          - generic [ref=e174]:
+            - paragraph [ref=e175]: Sidewalk-aligned options
+            - paragraph [ref=e176]: OpenStreetMap paths via OSRM. Ranked by shade with a detour guard (large distance/time detours are penalized), using campus-model shade matching near each segment.
+            - generic [ref=e177]:
+              - paragraph [ref=e178]: "Why this route wins: Balances shade (~31.8%) with 100% distance and 100% time of the shortest option."
+              - paragraph [ref=e179]: "Shade confidence: Low"
+              - paragraph [ref=e180]: Confidence uses route-sample match coverage to campus shade data.
+            - radiogroup "Walking path alternatives" [ref=e181]:
+              - radio "Most shade (est.) 2.00 km · ~7 min · ~31.8% shade confidence Low" [checked] [ref=e182] [cursor=pointer]:
+                - generic [ref=e183]: Most shade (est.)
+                - generic [ref=e184]: 2.00 km · ~7 min · ~31.8% shade
+                - generic [ref=e185]: confidence Low
+            - paragraph [ref=e186]: Sidewalk-aligned paths from OpenStreetMap via the public OSRM demo (rate-limited). For production, host OSRM or use a routing provider with an SLA.
+          - generic [ref=e187]:
+            - paragraph [ref=e188]: Building doors (approximate)
+            - list [ref=e189]:
+              - listitem [ref=e190]: Memorial Union — south patio / Forest Mall
+              - listitem [ref=e191]: Memorial Union — Cady Mall (east)
+          - paragraph [ref=e126]: Teal lines follow real pedestrian geometry from the router. Faded colored lines are the demo campus graph (shade / UTCI). Orange dots mark sample entrances for this trip.
+          - application "Campus route map" [ref=e127]:
+            - region "Map" [ref=e141]
+            - group [ref=e144]:
+              - generic "Toggle attribution" [ref=e145]
+              - generic [ref=e146]:
+                - link "MapLibre" [ref=e147] [cursor=pointer]:
+                  - /url: https://maplibre.org/
+                - text: "| ©"
+                - link "OpenStreetMap" [ref=e148] [cursor=pointer]:
+                  - /url: https://www.openstreetmap.org/copyright
+      - generic [ref=e128]:
+        - generic [ref=e130]:
+          - heading "Your route picks" [level=2] [ref=e131]
+          - paragraph [ref=e132]: Each card is a different strategy — compare shade, time outside, and comfort.
+        - article "Shortest · Shade-Aware · Cooling Stop · Comfort-Aware (UTCI) route" [ref=e192]:
+          - generic [ref=e193]:
+            - generic [ref=e194]:
+              - generic [ref=e196]: 33%
+              - generic [ref=e197]:
+                - heading "Shortest · Shade-Aware · Cooling Stop · Comfort-Aware (UTCI)" [level=3] [ref=e198]
+                - paragraph [ref=e199]: 89 m · ~1 min walk
+            - generic [ref=e200]:
+              - 'generic "Confidence: Medium" [ref=e201]': Medium
+              - 'status "Heat safety: Lower risk (UTCI)" [ref=e202]': ✓ Lower risk
+          - generic [ref=e203]:
+            - generic [ref=e204]:
+              - generic [ref=e205]: 🌳
+              - generic [ref=e206]:
+                - paragraph [ref=e207]: Shade
+                - paragraph [ref=e208]: 33% along path
+            - generic [ref=e209]:
+              - generic [ref=e210]: ☀️
+              - generic [ref=e211]:
+                - paragraph [ref=e212]: Sun exposure
+                - paragraph [ref=e213]: 1 min
+            - generic [ref=e214]:
+              - generic [ref=e215]: 📊
+              - generic [ref=e216]:
+                - paragraph [ref=e217]: Exposure (legacy)
+                - paragraph [ref=e218]: 21 / 100
+            - generic [ref=e219]:
+              - generic [ref=e220]: 🌡️
+              - generic [ref=e221]:
+                - paragraph [ref=e222]: Avg UTCI
+                - paragraph [ref=e223]:
+                  - generic [ref=e224]: 18.5 °C
+                  - text: — No thermal stress
+            - generic [ref=e225]:
+              - generic [ref=e226]: 💧
+              - generic [ref=e227]:
+                - paragraph [ref=e228]: Amenities
+                - paragraph [ref=e229]: 1 cooling · 1 water
+            - generic [ref=e230]:
+              - generic [ref=e231]: 🏢
+              - generic [ref=e232]:
+                - paragraph [ref=e233]: Indoor
+                - paragraph [ref=e234]: 89 m climate-controlled
+          - group [ref=e235]:
+            - generic "Sources and assumptions" [ref=e236] [cursor=pointer]:
+              - generic [ref=e237]: ▸
+              - text: Sources and assumptions
+      - generic [ref=e134]:
+        - generic [ref=e238]:
+          - generic [ref=e239]:
+            - heading "Heat & Climate Impact Dashboard" [level=2] [ref=e240]
+            - paragraph [ref=e241]: Cascading effects of choosing this shaded route — modeled & generated for your trip.
+          - generic [ref=e242]: Estimated (no AI key)
+        - paragraph [ref=e243]: Choosing this path may avoid ~2 min of direct sun.
+        - list [ref=e244]:
+          - listitem [ref=e245]:
+            - generic [ref=e246]:
+              - generic [ref=e247]: 🌡️
+              - generic [ref=e248]: You
+            - paragraph [ref=e249]: Heat strain
+            - paragraph [ref=e250]: "-34%"
+            - paragraph [ref=e251]: Lower estimated body-heat load vs the least-shaded path (81°F feels-like).
+            - paragraph [ref=e252]: modeled
+          - listitem [ref=e253]:
+            - generic [ref=e254]:
+              - generic [ref=e255]: ☀️
+              - generic [ref=e256]: Long term
+            - paragraph [ref=e257]: Direct UV avoided
+            - paragraph [ref=e258]: 2 min
+            - paragraph [ref=e259]: Less direct sun on this trip can reduce same-day UV burden and cumulative skin aging.
+          - listitem [ref=e260]:
+            - generic [ref=e261]:
+              - generic [ref=e262]: 🧴
+              - generic [ref=e263]: You
+            - paragraph [ref=e264]: Sunscreen / yr
+            - paragraph [ref=e265]: ~$0
+            - paragraph [ref=e266]: Across ~5 trips/week, less direct sun can mean lower sunscreen reapplication needs.
+            - paragraph [ref=e267]: directional
+          - listitem [ref=e268]:
+            - generic [ref=e269]:
+              - generic [ref=e270]: 💧
+              - generic [ref=e271]: You
+            - paragraph [ref=e272]: Water saved
+            - paragraph [ref=e273]: ~0 bottles
+            - paragraph [ref=e274]: Lower sweat-loss estimate over the trip — keep drinking water regardless.
+            - paragraph [ref=e275]: directional
+          - listitem [ref=e276]:
+            - generic [ref=e277]:
+              - generic [ref=e278]: ❄️
+              - generic [ref=e279]: Buildings
+            - paragraph [ref=e280]: AC load on arrival
+            - paragraph [ref=e281]: "-19%"
+            - paragraph [ref=e282]: Cooler arrival means HVAC works less to bring you back to baseline indoors.
+            - paragraph [ref=e283]: modeled
+          - listitem [ref=e284]:
+            - generic [ref=e285]:
+              - generic [ref=e286]: 🌱
+              - generic [ref=e287]: Climate
+            - paragraph [ref=e288]: Emissions pressure
+            - paragraph [ref=e289]: "-17%"
+            - paragraph [ref=e290]: Lower cooling demand reduces grid-tied CO₂e pressure during peak Phoenix hours.
+            - paragraph [ref=e291]: directional
+          - listitem [ref=e292]:
+            - generic [ref=e293]:
+              - generic [ref=e294]: 🩺
+              - generic [ref=e295]: You
+            - paragraph [ref=e296]: Heat-illness risk
+            - paragraph [ref=e297]: modestly lower
+            - paragraph [ref=e298]: Shaded routing reduces dehydration + core-temp drift, two key heat-illness drivers.
+            - paragraph [ref=e299]: qualitative
+          - listitem [ref=e300]:
+            - generic [ref=e301]:
+              - generic [ref=e302]: 🧠
+              - generic [ref=e303]: Long term
+            - paragraph [ref=e304]: Cognitive load
+            - paragraph [ref=e305]: lower
+            - paragraph [ref=e306]: Arriving cooler and less depleted can support better focus in your next class or meeting.
+            - paragraph [ref=e307]: qualitative
+        - generic [ref=e308]:
+          - heading "Physical Thermodynamic Proxies" [level=3] [ref=e309]
+          - generic [ref=e310]:
+            - generic [ref=e311]:
+              - paragraph [ref=e312]: Body heat load
+              - paragraph [ref=e314]: "-16.0%"
+              - paragraph [ref=e315]: 9.6 fewer kcal absorbed vs hypothetical unshaded route
+              - generic:
+                - strong: "Scientific Basis:"
+                - text: Metabolic heat (~300W) + Solar radiation (~300W × unshaded fraction) × walking duration. Less sun exposure directly reduces the thermal kilocalories (kcal) your body absorbs.
+            - generic [ref=e316]:
+              - paragraph [ref=e317]: Cooling demand proxy
+              - paragraph [ref=e319]: "-16.0%"
+              - paragraph [ref=e320]: Saves ~3.73 Wh of HVAC energy
+              - generic:
+                - strong: "Scientific Basis:"
+                - text: Based on the First Law of Thermodynamics, excess heat absorbed outdoors must be cooled down indoors. Assuming an HVAC Coefficient of Performance (COP) of 3.0, this calculates the precise Watt-hours (Wh) required to extract that heat.
+            - generic [ref=e321]:
+              - paragraph [ref=e322]: Emissions pressure
+              - paragraph [ref=e324]: "-16.0%"
+              - paragraph [ref=e325]: Averts ~1.49g CO2e grid emissions
+              - generic:
+                - strong: "Scientific Basis:"
+                - text: Multiplying the averted cooling Watt-hours by the US electrical grid average carbon intensity (~400g CO2e/kWh). Reduces Scope 2 emissions pressure.
+          - generic [ref=e326]:
+            - paragraph [ref=e327]: Thermodynamic Correlation Chain
+            - generic [ref=e328]:
+              - generic [ref=e329]:
+                - paragraph [ref=e330]: 1. Route Choice
+                - paragraph [ref=e331]: "Selected: 32% shade"
+                - paragraph [ref=e332]: "Baseline: 0% shade"
+              - generic [ref=e333]:
+                - paragraph [ref=e334]: 2. Body Heat (kcal)
+                - paragraph [ref=e335]: Thermal absorption drops by 9.6 kilocalories
+              - generic [ref=e336]:
+                - paragraph [ref=e337]: 3. Cooling (Wh)
+                - paragraph [ref=e338]: Indoor HVAC saves 3.73 Wh of extraction energy
+              - generic [ref=e339]:
+                - paragraph [ref=e340]: 4. Campus Scale (10k trips)
+                - paragraph [ref=e341]: Saves 37.3 kWh & 14.9 kg CO2e
+        - paragraph [ref=e342]: Estimates are directional comparisons vs the least-shaded option for the same trip — not medical or carbon-accounting claims.
+        - generic [ref=e343]:
+          - generic [ref=e345]:
+            - generic [ref=e346]: Route duration comparison
+            - generic [ref=e347]: 100% of baseline time
+          - paragraph [ref=e350]: "Methodology: Physical thermodynamic proxy estimating human solar energy absorption. Values scale from individual metabolic joules to macro grid emissions (US avg. grid mix assumed)."
+      - region "Route results summary" [ref=e351]:
+        - heading "Screen-reader summary" [level=2] [ref=e352]
+        - list [ref=e353]:
+          - listitem [ref=e354]:
+            - strong [ref=e355]: Shortest, Shade-Aware, Cooling Stop, Comfort-Aware (UTCI).
+            - text: Shade 33 percent, sun about 1 minutes, exposure score 21 of 100, average UTCI 18.5 degrees Celsius (No thermal stress). Lower risk for this walk.
+  - alert [ref=e149]

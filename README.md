@@ -23,6 +23,8 @@ Built for the **Kiro Spark Challenge (Environment Accountability Guardrail)** us
 
 ### Route Planner
 
+[Live Demo](https://img.shields.io/badge/Live%20Demo-shade--path.netlify.app-4f46e5?style=flat-square)
+
 ![ShadowPath homepage with route form and live weather card](docs/screenshots/hero.png)
 
 *The form auto-fetches NWS weather for your chosen hour. The weather card updates as you slide through the day.*

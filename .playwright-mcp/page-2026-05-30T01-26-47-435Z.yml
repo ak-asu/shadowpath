@@ -1,0 +1,203 @@
+- generic [ref=e1]:
+  - navigation [ref=e2]:
+    - link "Skip to content" [ref=e3] [cursor=pointer]:
+      - /url: "#main-content"
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6]: ShadowPath
+        - list [ref=e7]:
+          - listitem [ref=e8]:
+            - link "Home" [ref=e9] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e10]:
+            - link "Day Planner" [ref=e11] [cursor=pointer]:
+              - /url: /planner
+          - listitem [ref=e12]:
+            - link "Why This Matters" [ref=e13] [cursor=pointer]:
+              - /url: /why-this-matters
+          - listitem [ref=e14]:
+            - link "Waste Classifier" [ref=e15] [cursor=pointer]:
+              - /url: /waste-classifier
+      - 'button "High Contrast: Off" [ref=e16] [cursor=pointer]'
+  - main [ref=e17]:
+    - generic [ref=e19]:
+      - generic [ref=e20]:
+        - paragraph [ref=e21]:
+          - generic [ref=e22]: 📅
+          - text: HeatShield
+        - heading "Day planner for cooler campus moves" [level=1] [ref=e23]
+        - paragraph [ref=e24]: Plan your school day around heat, not just time.
+        - paragraph [ref=e25]: Day-wide forecast uses the time nearest your schedule midpoint (12 PM). Each walk leg still uses the slot closest to its start time for shade routing.
+      - note "Prototype disclaimer" [ref=e26]:
+        - paragraph [ref=e27]: ⚠️ Prototype Disclaimer
+        - paragraph [ref=e28]: This planner uses demo data and estimated calculations for educational and planning purposes only. It is not a substitute for official heat safety guidance.
+      - generic [ref=e29]:
+        - group [ref=e32]:
+          - generic [ref=e33]:
+            - heading "Campus Commitments" [level=2] [ref=e34]
+            - button "Load Demo Schedule" [active] [ref=e35] [cursor=pointer]
+          - generic [ref=e36]:
+            - generic [ref=e37]:
+              - generic [ref=e38]:
+                - generic [ref=e39]: Commitment 1
+                - button "Remove" [ref=e108] [cursor=pointer]
+              - generic [ref=e40]:
+                - generic [ref=e41]:
+                  - generic [ref=e42]: Location
+                  - combobox "Location" [ref=e43]:
+                    - option "Select a building"
+                    - option "Hayden Library"
+                    - option "Memorial Union"
+                    - option "Brickyard" [selected]
+                    - option "Fulton Center"
+                    - option "Old Main"
+                    - option "Gammage Auditorium"
+                    - option "Sun Devil Stadium"
+                    - option "Biodesign Institute"
+                    - option "ISTB4"
+                    - option "Wrigley Hall"
+                - generic [ref=e44]:
+                  - generic [ref=e45]: Start Time
+                  - textbox "Start Time" [ref=e46]: 10:30
+                - generic [ref=e47]:
+                  - generic [ref=e48]: End Time (optional)
+                  - textbox "End Time (optional)" [ref=e49]
+                - generic [ref=e50]:
+                  - generic [ref=e51]: Label
+                  - textbox "Label" [ref=e52]:
+                    - /placeholder: e.g. CS 101 Lecture
+                    - text: Coor Hall
+              - generic [ref=e53]:
+                - checkbox "Flexible timing" [ref=e54]
+                - generic [ref=e55]: Flexible timing
+            - generic [ref=e56]:
+              - generic [ref=e57]:
+                - generic [ref=e58]: Commitment 2
+                - button "Remove" [ref=e109] [cursor=pointer]
+              - generic [ref=e59]:
+                - generic [ref=e60]:
+                  - generic [ref=e61]: Location
+                  - combobox "Location" [ref=e62]:
+                    - option "Select a building"
+                    - option "Hayden Library"
+                    - option "Memorial Union"
+                    - option "Brickyard"
+                    - option "Fulton Center" [selected]
+                    - option "Old Main"
+                    - option "Gammage Auditorium"
+                    - option "Sun Devil Stadium"
+                    - option "Biodesign Institute"
+                    - option "ISTB4"
+                    - option "Wrigley Hall"
+                - generic [ref=e63]:
+                  - generic [ref=e64]: Start Time
+                  - textbox "Start Time" [ref=e65]: 12:00
+                - generic [ref=e66]:
+                  - generic [ref=e67]: End Time (optional)
+                  - textbox "End Time (optional)" [ref=e68]
+                - generic [ref=e69]:
+                  - generic [ref=e70]: Label
+                  - textbox "Label" [ref=e71]:
+                    - /placeholder: e.g. CS 101 Lecture
+                    - text: W.P. Carey
+              - generic [ref=e72]:
+                - checkbox "Flexible timing" [ref=e73]
+                - generic [ref=e74]: Flexible timing
+            - generic [ref=e110]:
+              - generic [ref=e111]:
+                - generic [ref=e112]: Commitment 3
+                - button "Remove" [ref=e113] [cursor=pointer]
+              - generic [ref=e114]:
+                - generic [ref=e115]:
+                  - generic [ref=e116]: Location
+                  - combobox "Location" [ref=e117]:
+                    - option "Select a building"
+                    - option "Hayden Library"
+                    - option "Memorial Union" [selected]
+                    - option "Brickyard"
+                    - option "Fulton Center"
+                    - option "Old Main"
+                    - option "Gammage Auditorium"
+                    - option "Sun Devil Stadium"
+                    - option "Biodesign Institute"
+                    - option "ISTB4"
+                    - option "Wrigley Hall"
+                - generic [ref=e118]:
+                  - generic [ref=e119]: Start Time
+                  - textbox "Start Time" [ref=e120]: 14:00
+                - generic [ref=e121]:
+                  - generic [ref=e122]: End Time (optional)
+                  - textbox "End Time (optional)" [ref=e123]
+                - generic [ref=e124]:
+                  - generic [ref=e125]: Label
+                  - textbox "Label" [ref=e126]:
+                    - /placeholder: e.g. CS 101 Lecture
+                    - text: Memorial Union
+              - generic [ref=e127]:
+                - checkbox "Flexible timing" [checked] [ref=e128]
+                - generic [ref=e129]: Flexible timing
+            - generic [ref=e130]:
+              - generic [ref=e131]:
+                - generic [ref=e132]: Commitment 4
+                - button "Remove" [ref=e133] [cursor=pointer]
+              - generic [ref=e134]:
+                - generic [ref=e135]:
+                  - generic [ref=e136]: Location
+                  - combobox "Location" [ref=e137]:
+                    - option "Select a building"
+                    - option "Hayden Library" [selected]
+                    - option "Memorial Union"
+                    - option "Brickyard"
+                    - option "Fulton Center"
+                    - option "Old Main"
+                    - option "Gammage Auditorium"
+                    - option "Sun Devil Stadium"
+                    - option "Biodesign Institute"
+                    - option "ISTB4"
+                    - option "Wrigley Hall"
+                - generic [ref=e138]:
+                  - generic [ref=e139]: Start Time
+                  - textbox "Start Time" [ref=e140]: 16:30
+                - generic [ref=e141]:
+                  - generic [ref=e142]: End Time (optional)
+                  - textbox "End Time (optional)" [ref=e143]
+                - generic [ref=e144]:
+                  - generic [ref=e145]: Label
+                  - textbox "Label" [ref=e146]:
+                    - /placeholder: e.g. CS 101 Lecture
+                    - text: Hayden Library
+              - generic [ref=e147]:
+                - checkbox "Flexible timing" [ref=e148]
+                - generic [ref=e149]: Flexible timing
+          - generic [ref=e75]:
+            - button "Add Commitment" [ref=e76] [cursor=pointer]
+            - button "Plan My Day" [ref=e77] [cursor=pointer]
+        - group "Personal Heat Mode" [ref=e79]:
+          - generic [ref=e80]: Personal Heat Mode
+          - paragraph [ref=e81]: These settings tune route comfort, accessibility filters, and planner recommendations.
+          - generic [ref=e82]:
+            - generic [ref=e83] [cursor=pointer]:
+              - checkbox "Standard walking" [checked] [ref=e84]
+              - generic [ref=e85]: Standard walking
+            - generic [ref=e86] [cursor=pointer]:
+              - checkbox "Low exertion" [ref=e87]
+              - generic [ref=e88]: Low exertion
+            - generic [ref=e89] [cursor=pointer]:
+              - checkbox "Wheelchair-accessible" [ref=e90]
+              - generic [ref=e91]: Wheelchair-accessible
+            - generic [ref=e92] [cursor=pointer]:
+              - checkbox "Asthma-sensitive" [ref=e93]
+              - generic [ref=e94]: Asthma-sensitive
+            - generic [ref=e95] [cursor=pointer]:
+              - checkbox "Prefer shaded paths" [ref=e96]
+              - generic [ref=e97]: Prefer shaded paths
+            - generic [ref=e98] [cursor=pointer]:
+              - checkbox "Prefer water refill stops" [ref=e99]
+              - generic [ref=e100]: Prefer water refill stops
+            - generic [ref=e101] [cursor=pointer]:
+              - checkbox "Prefer cooling stops" [ref=e102]
+              - generic [ref=e103]: Prefer cooling stops
+            - generic [ref=e104] [cursor=pointer]:
+              - checkbox "Prefer shuttle alternatives" [ref=e105]
+              - generic [ref=e106]: Prefer shuttle alternatives
+  - alert [ref=e107]
