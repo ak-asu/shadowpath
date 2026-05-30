@@ -1,6 +1,6 @@
 # ShadowPath — 2-Minute Demo Script
 
-A guided walkthrough of the core ShadowPath experience. Estimated time: ~2 minutes.
+A guided walkthrough of the core ShadowPath experience. Estimated time: ~2-3 minutes.
 
 ---
 
